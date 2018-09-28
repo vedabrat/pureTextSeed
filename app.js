@@ -2,7 +2,6 @@ const http = require('http');
 
 const hostname = 'localhost';
 const port = 5000;
-
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/javascript');
@@ -12,6 +11,8 @@ const server = http.createServer((req, res) => {
   	
 
   });
+var port_number = server.listen(process.env.PORT || 3000);
+app.listen(port_number);
 
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
