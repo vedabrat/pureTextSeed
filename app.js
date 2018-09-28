@@ -1,6 +1,6 @@
 const http = require('http');
 
-const hostname = 'https://tranquil-mountain-51305.herokuapp.com';
+const hostname = 'tranquil-mountain-51305.herokuapp.com';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
