@@ -4,8 +4,8 @@
   "description": "\"this app is just me doing something complicated with node...\"",
   "main": "app.js",
   "scripts": {
-    "start": "start app.js"
-    "test": "puts \"Damn hot dog we effed up\""
+    "test": "echo \"Damn hot dog we effed up\"",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
