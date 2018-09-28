@@ -1,0 +1,24 @@
+{
+  "name": "puretextseed",
+  "version": "1.0.0",
+  "description": "\"this app is just me doing something complicated with node...\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "puts \"Damn hot dog we effed up\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedabrat/pureTextSeed.git"
+  },
+  "keywords": [
+    "techit",
+    "vedabrat",
+    "etwaru"
+  ],
+  "author": "Vedabrat Etwaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vedabrat/pureTextSeed/issues"
+  },
+  "homepage": "https://github.com/vedabrat/pureTextSeed#readme"
+}
